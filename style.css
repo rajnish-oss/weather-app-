@@ -66,6 +66,8 @@ input{
 
 .weather{
     height: 170px;
+    position: fixed;
+    right: 41vw;
 }
 
 .weaImg{
@@ -91,9 +93,10 @@ display: block;
 
 .detail {
     height: 11vh;
-    width: 100%;
-    position: relative;
-    bottom: -179px;
+    width: 22.5vw;
+    position: fixed;
+    bottom: 16vh;
+    right: 38.8vw;
     padding: 10px;
     background: rgba(255, 255, 255, 0.2);
     border-radius: 0 0 12px 12px;
@@ -130,7 +133,7 @@ display: block;
     height: 11vh;
     width: 50%;
     position: relative;
-    right: -203px;
+    right: -190px;
     bottom: 90px;
     border-radius: 0 0 12px 0;
 }
